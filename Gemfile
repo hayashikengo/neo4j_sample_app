@@ -44,5 +44,7 @@ group :development do
   gem 'spring'
 end
 
-# このバージョンだと、neo4j-coreも使える
-gem 'neo4j', '~> 6.0.0'
+# '~> 6.0.0' だと neo4j-coreも使える（バグがあり、relationが貼れない）
+# gem 'neo4j', '~> 6.0.0'
+gem 'neo4j'
+gem 'neo4j-core'
