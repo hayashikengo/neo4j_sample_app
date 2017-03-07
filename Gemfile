@@ -43,5 +43,5 @@ group :development do
   gem 'spring'
 end
 
-
-gem 'neo4j', '~> 8.0.0'
+# このバージョンだと、neo4j-coreも使える
+gem 'neo4j', '~> 6.0.0'
